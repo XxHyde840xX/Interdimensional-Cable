@@ -14,12 +14,13 @@
 	<modDependencies>
 		<li>
 			<packageId>jelly.RimFlix</packageId>
-			<displayName>Rimflix</displayName>
+			<displayName>RimFlix</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2608346503</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>jelly.RimFlix</li>
+		<li>aznplucky.rimflix</li>
 	</loadAfter>
 	<packageId>840.InterDimensional.Cable</packageId>
 	<description>A collection of everything I could find for RimFlix. Does not include "Overlord Maury" because I don't know what that cat is and I think it's dumb. Real dumb. Also does not include Rimkini Un-Illustrated, or any of the smut on LoversLab, because RimHUB exists. If I wanted to fap, I'm going to do it on my own time, and not to beans-on-a-screen. I will add to this if I find or create any more shows.</description>

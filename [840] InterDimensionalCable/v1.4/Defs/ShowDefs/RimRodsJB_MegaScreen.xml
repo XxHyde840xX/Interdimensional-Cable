@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+  
+    <defName>RimRodsJB_MegaScreen</defName>
+
+    <label>Movies - RimRods JB Auction</label>
+    
+    <description>Jarret Backson brings you the latest in Rimworld Hot Rods, get ready to bid to your hearts content on these amazing cars!</description>
+    
+		<televisionDefs>
+			<li>TubeTelevision</li>
+			<li>FlatscreenTelevision</li>
+			<li>MegascreenTelevision</li>
+			<li MayRequire="VanillaExpanded.VFESpacer">UltrascreenTV</li>
+		</televisionDefs>
+    
+    <secondsBetweenFrames>10.0</secondsBetweenFrames>
+
+    
+    <frames>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_1</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_2</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_3</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_4</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_5</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_6</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_7</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_8</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_9</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_10</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_11</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_12</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_13</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_14</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_15</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_16</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_17</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_18</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_19</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_20</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_21</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_22</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_23</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_24</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_25</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/RimRodsJB/RimRods_26</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+
+
+    </frames>
+    
+  </RimFlix.ShowDef>
+
+</Defs>
+
+
+
+
+
+
+
+

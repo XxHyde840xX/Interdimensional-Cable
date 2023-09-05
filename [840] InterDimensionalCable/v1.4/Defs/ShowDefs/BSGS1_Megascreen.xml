@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+  
+    <!-- defName should be unique for each show -->
+    <defName>BSGS1_Megascreen</defName>
+
+    <!-- label is the name of the show users will see in game -->
+    <label>BSG Season 1 - Megascreen Television</label>
+    
+    <!-- description is visible when users mouseover your show in settings -->
+    <description>Battlestar Galactica Season 1</description>
+    
+    <!-- You can include multiple televisionDefs here, but since the aspect ratio is different
+    for each television, you probably want different Shows for each television type. -->
+    <televisionDefs>
+      <li>MegascreenTelevision</li>
+    </televisionDefs>
+    
+    <!-- Time between each image in your show -->
+    <secondsBetweenFrames>8.0</secondsBetweenFrames>
+
+    <!-- Placeholder for possible future feature. Not required. You can remove or leave it in. -->
+    <sound />
+    
+    <!-- This is where you link to all the images in your show -->
+    <frames>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1000</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1001</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1002</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1003</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1004</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1005</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1006</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1007</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1008</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1009</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1010</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1011</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1012</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	<li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/BSG/BSGS1/BSG1013</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     
+    </frames>
+    
+  </RimFlix.ShowDef>
+
+</Defs>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+  
+    <!-- defName should be unique for each show -->
+    <defName>Bikinis</defName>
+
+    <!-- label is the name of the show users will see in game -->
+    <label>RWBC-Bikini Bonanza</label>
+    
+    <!-- description is visible when users mouseover your show in settings -->
+    <description>Just lots of bikinis. Not much else to say.</description>
+    
+    <!-- You can include multiple televisionDefs here, but since the aspect ratio is different
+    for each television, you probably want different Shows for each television type. -->
+    <televisionDefs>
+      <li>MegascreenTelevision</li>
+      <li>FlatscreenTelevision</li>
+      <li>TubeTelevision</li>
+	  <li MayRequire="VanillaExpanded.VFESpacer">UltrascreenTV</li>
+    </televisionDefs>
+    
+    <!-- Time between each image in your show -->
+    <secondsBetweenFrames>6.0</secondsBetweenFrames>
+
+    <!-- Placeholder for possible future feature. Not required. You can remove or leave it in. -->
+    <sound />
+    
+    <frames>
+      <li>
+        <texPath>Shows/Bikinis/1001</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1002</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1003</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1004</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1005</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1006</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1007</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1008</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1009</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1010</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1011</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1012</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1013</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1014</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1015</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1016</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1017</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1018</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1019</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1020</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1021</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1022</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1023</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1024</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1025</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1026</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1027</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1028</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1029</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1030</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1031</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1032</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1033</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1034</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Bikinis/1035</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+
+	  
+      <!-- Add more frames as required -->
+    </frames>
+    
+  </RimFlix.ShowDef>
+
+</Defs>

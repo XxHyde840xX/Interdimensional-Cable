@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+  
+    <!-- defName should be unique for each show -->
+    <defName>MarsPerseverance_Megascreen</defName>
+
+    <!-- label is the name of the show users will see in game -->
+    <label>Science - Nasa Mars Perseverance Landing</label>
+    
+    <!-- description is visible when users mouseover your show in settings -->
+    <description>Mars Perseverance Landing</description>
+    
+    <!-- You can include multiple televisionDefs here, but since the aspect ratio is different
+    for each television, you probably want different Shows for each television type. -->
+		<televisionDefs>
+			<li>TubeTelevision</li>
+			<li>FlatscreenTelevision</li>
+			<li>MegascreenTelevision</li>
+			<li MayRequire="VanillaExpanded.VFESpacer">UltrascreenTV</li>
+		</televisionDefs>
+    
+    <!-- Time between each image in your show -->
+    <secondsBetweenFrames>1.0</secondsBetweenFrames>
+
+    <!-- Placeholder for possible future feature. Not required. You can remove or leave it in. -->
+    <sound />
+    
+    <!-- This is where you link to all the images in your show -->
+    <frames>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_1</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_02.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_2</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_03.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_3</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_04.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_4</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_05.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_5</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_06.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_6</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_07.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_7</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_08.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_8</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_09.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_9</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_010.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_10</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_011.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_11</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_012.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_12</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_013.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_13</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_014.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_14</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_015.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_15</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_016.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_16</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_017.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_17</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_018.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_18</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_019.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_19</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_020.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_20</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_021.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_21</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	 
+	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_022.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_22</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_023.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_23</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_024.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_24</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_025.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_25</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_026.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_26</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_027.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_27</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_028.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_28</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_029.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_29</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_030.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_30</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_031.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_31</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_032.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_32</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_033.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_33</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_034.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_34</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_035.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_35</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_036.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_36</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_037.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_37</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_038.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_38</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_039.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_39</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_040.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_40</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_041.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_41</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_042.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_42</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_043.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_43</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_044.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_44</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_045.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_45</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_046.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_46</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_047.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_47</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_048.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_48</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_049.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_49</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_050.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_50</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_051.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_51</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	 
+	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_052.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_52</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_053.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_53</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_054.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_54</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_055.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_55</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_056.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_56</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_057.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_57</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_058.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_58</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_059.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_59</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_060.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_60</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_061.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_61</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_062.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_62</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_063.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_63</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_064.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_64</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_065.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_65</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_066.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_66</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_067.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_67</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_068.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_68</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_069.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_69</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_070.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_70</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_071.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_71</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_072.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_72</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_073.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_73</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_074.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_74</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_075.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_75</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_076.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_76</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_077.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_77</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_078.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_78</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_079.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_79</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_080.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_80</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_081.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_81</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	 
+	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_082.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_82</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_083.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_83</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_084.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_84</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_085.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_85</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_086.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_86</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_087.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_87</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_088.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_88</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_089.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_89</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_090.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_90</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_091.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_91</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_092.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_92</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_093.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_93</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_094.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_94</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_095.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_95</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	 
+	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_096.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_96</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_097.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_97</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_098.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_98</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_099.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_99</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_100.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_100</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_101.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_101</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_102.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_102</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_103.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_103</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_104.png -->
+        <texPath>Shows/MarsPerseverance/MarsPers_104</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+	  
+      <!-- Add more frames as required -->
+    </frames>
+    
+  </RimFlix.ShowDef>
+
+</Defs>

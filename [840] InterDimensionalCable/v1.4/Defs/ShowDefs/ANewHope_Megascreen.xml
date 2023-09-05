@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+  
+    <!-- defName should be unique for each show -->
+    <defName>ANewHope_Megascreen</defName>
+
+    <!-- label is the name of the show users will see in game -->
+    <label>ANewHope - Megascreen Television</label>
+    
+    <!-- description is visible when users mouseover your show in settings -->
+    <description>Star Wars Episode IV</description>
+    
+    <!-- You can include multiple televisionDefs here, but since the aspect ratio is different
+    for each television, you probably want different Shows for each television type. -->
+    <televisionDefs>
+      <li>MegascreenTelevision</li>
+    </televisionDefs>
+    
+    <!-- Time between each image in your show -->
+    <secondsBetweenFrames>8.0</secondsBetweenFrames>
+
+    <!-- Placeholder for possible future feature. Not required. You can remove or leave it in. -->
+    <sound />
+    
+    <!-- This is where you link to all the images in your show -->
+    <frames>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope001</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_02.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope002</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_03.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope003</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_04.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope004</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_05.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope005</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_06.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope006</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_07.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope007</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_08.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope008</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_09.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope009</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_010.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope010</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_011.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope011</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_012.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope012</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_013.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope013</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_014.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope014</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_015.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope015</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_016.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope016</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_017.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope017</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_018.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope018</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_019.png -->
+        <texPath>Shows/ANewHope/RimFlixANewHope019</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <!-- Add more frames as required -->
+    </frames>
+    
+  </RimFlix.ShowDef>
+
+</Defs>

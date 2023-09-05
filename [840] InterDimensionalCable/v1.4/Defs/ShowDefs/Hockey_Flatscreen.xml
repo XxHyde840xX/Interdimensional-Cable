@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+
+    <!-- defName should be unique for each show -->
+    <defName>Hockey_Flatscreen</defName>
+
+    <!-- label is the name of the show users will see in game -->
+    <label>Hockey</label>
+
+    <!-- description is visible when users mouseover your show in settings -->
+    <description>Hockey stills</description>
+
+    <!-- You can include multiple televisionDefs here, but since the aspect ratio is different
+    for each television, you probably want different shows for each television type. -->
+    <televisionDefs>
+      <li>FlatscreenTelevision</li>
+    </televisionDefs>
+
+    <!-- Time between each image in your show -->
+    <secondsBetweenFrames>1.0</secondsBetweenFrames>
+
+    <!-- Placeholder for possible future feature. Not required. You can remove or leave it in. -->
+    <sound />
+
+    <!-- This is where you link to all the images in your show -->
+
+    <frames>
+      <li>
+        <!-- This is a link to Shows/MyShow/Flat_MyShow_00.png -->
+        <texPath>Shows/MyShow/Flat_HockeyHurricanes_1</texPath>
+        <!-- This is required for every frame. Just copy it over to each frame -->
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Flat_MyShow_00.png -->
+        <texPath>Shows/MyShow/Flat_hockey_0</texPath>
+        <!-- This is required for every frame. Just copy it over to each frame -->
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Flat_MyShow_00.png -->
+        <texPath>Shows/MyShow/Flat_hockey_1</texPath>
+        <!-- This is required for every frame. Just copy it over to each frame -->
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Flat_MyShow_00.png -->
+        <texPath>Shows/MyShow/Flat_hockey_2</texPath>
+        <!-- This is required for every frame. Just copy it over to each frame -->
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_4</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_5</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_6</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_7</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_8</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_9</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_10</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_11</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_12</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_13</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/MyShow/Flat_hockey_14</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+
+      <!-- Add more frames as required -->
+    </frames>
+
+  </RimFlix.ShowDef>
+
+</Defs>

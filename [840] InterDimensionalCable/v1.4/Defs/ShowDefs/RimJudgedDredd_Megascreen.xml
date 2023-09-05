@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+  
+    <!-- defName should be unique for each show -->
+    <defName>RimJudgedDredd_Megascreen</defName>
+
+    <!-- label is the name of the show users will see in game -->
+    <label>RimJudgedDredd - Megascreen Television</label>
+    
+    <!-- description is visible when users mouseover your show in settings -->
+    <description>RIM Judge Dredd</description>
+    
+    <!-- You can include multiple televisionDefs here, but since the aspect ratio is different
+    for each television, you probably want different Shows for each television type. -->
+    <televisionDefs>
+      <li>MegascreenTelevision</li>
+    </televisionDefs>
+    
+    <!-- Time between each image in your show -->
+    <secondsBetweenFrames>3.0</secondsBetweenFrames>
+
+    <!-- Placeholder for possible future feature. Not required. You can remove or leave it in. -->
+    <sound />
+    
+    <!-- This is where you link to all the images in your show -->
+    <frames>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_01.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-01</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_02.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-02</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_03.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-03</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_04.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-04</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_05.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-05</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_06.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-06</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_07.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-07</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_08.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-08</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_09.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-09</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_010.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-10</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_011.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-11</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_012.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-12</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_013.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-13</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_014.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-14</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_015.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-15</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_016.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-16</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_017.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-17</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_018.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-18</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_019.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-19</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_020.png JUDGE RINDER ADVERT -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-20-jr1_need</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_020.png REPEATED -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-20-jr1_need</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	 
+	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_021.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-21-jr2_season</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+	  <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_021.png REPEATED -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-21-jr2_season</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+
+      <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_022.png -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-23-jr3_JR_desk</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+       <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_022.png REPEATED -->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-23-jr3_JR_desk</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+     <li>
+        <!-- This is a link to Shows/MyShow/Megascreen_MyShow_022.png REPEATED-->
+        <texPath>Shows/RimJudgedDredd/RimFlixRIMJudgedDredd-23-jr3_JR_desk</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>	  
+
+	  
+      <!-- Add more frames as required -->
+    </frames>
+    
+  </RimFlix.ShowDef>
+
+</Defs>
